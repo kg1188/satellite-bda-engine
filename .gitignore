@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Explicitly track cached satellite scenario bundles for zero-download cloud deployment
+!data/
+!data/.gitkeep
+!data/*.npz
+!data/*.json
